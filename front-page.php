@@ -126,7 +126,7 @@ get_header();
     <div class="container">
       <div class=" work-flex flex-container">
         <div class="width-container">
-          <a class="work-anchor-btn anchor">Portfolio</a>
+          <a class="anchor">Portfolio</a>
           <h2 class="work-title">
             Our Work
           </h2>
@@ -153,7 +153,7 @@ get_header();
               <p class="work-anchor anchor">Wireframe</p>
               <div class="work-info flex-container">
                 <h3 class="work-card-title"><?php the_title(); ?></h3>
-                <a class="arrow-btn btn" href="/ourwork-detail.html">
+                <a class="arrow-btn btn" href="<?php echo site_url('/ourwork-detail/') ?>">
                   <img src="<?php echo get_template_directory_uri(); ?>/html/work/arrow-img.png" />
                 </a>
               </div>

@@ -44,11 +44,11 @@
         wp_reset_postdata();
       endif;
       ?>
+    </div>
 
-
-      <div class="services-btn">
-        <a class="services-btn btn" href="#">See More Services</a>
-      </div>
+    <div class="services-btn">
+      <a class="services-btn btn" href="#">See More Services</a>
+    </div>
   </section>
   <section>
     <div class="gradient-card">
@@ -71,7 +71,7 @@
     <div class="container">
       <div class=" work-flex flex-container">
         <div class="width-container">
-          <a class="work-anchor-btn anchor" href="#">Portfolio</a>
+          <a class="anchor" href="#">Portfolio</a>
           <h2 class="work-title">
             Our Work
           </h2>
@@ -80,7 +80,7 @@
             our standout projects.
           </p>
         </div>
-        <a class="anchor-btn btn work-btn" href="#">See More Portfolio</a>
+        <a class="anchor-btn btn work-btn" href="<?php echo site_url('/our-work/') ?>">See More Portfolio</a>
       </div>
       <div class="work-grid grid grid-col3 grid-1col">
         <?php
@@ -98,7 +98,7 @@
               <p class="work-anchor anchor">Wireframe</p>
               <div class="work-info flex-container">
                 <h3 class="work-card-title"><?php the_title(); ?></h3>
-                <a class="arrow-btn btn" href="/ourwork-detail.html">
+                <a class="arrow-btn btn" href="<?php echo site_url('/ourwork-detail/') ?>">
                   <img src="<?php echo get_template_directory_uri(); ?>/html/work/arrow-img.png" />
                 </a>
               </div>
