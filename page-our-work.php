@@ -5,7 +5,7 @@
 <main class="ourwork-page">
   <section class=" service-page">
     <img class="service-hero-img work-bg-img"
-      src="<?php echo site_url('/wp-content/uploads/2025/12/work-gradient-img.png') ?>">
+      src="<?php echo site_url('/wp-content/uploads/2025/12/work-gradient-img.png') ?>" alt="Gradient_shade_image">
     <h1 class="design-title service-title">
       Check Our Works With
       <span class="hero-span">Real Results</span>

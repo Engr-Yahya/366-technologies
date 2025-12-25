@@ -484,10 +484,6 @@
   .blog-card-title {
     font-size: 28px;
   }
-  footer svg {
-    height: 14px;
-    width: 14px;
-  }
 }
 @media (max-width: 820px) {
   .hero-container {
@@ -495,6 +491,9 @@
   }
 }
 @media (max-width: 786px) {
+  .hero-content {
+    padding-left: 0px;
+  }
   .logo-container {
     gap: 80px;
   }
@@ -738,5 +737,9 @@
   }
   .blog-card-title {
     font-size: 20px;
+  }
+  footer svg {
+    height: 14px;
+    width: 14px;
   }
 }

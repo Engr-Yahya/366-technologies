@@ -2,7 +2,8 @@
 
 <main class="design-page">
   <section class=" service-page">
-    <img class="service-hero-img" src="<?php echo site_url('/wp-content/uploads/2025/12/Gradient.png') ?>">
+    <img class="service-hero-img" src="<?php echo site_url('/wp-content/uploads/2025/12/Gradient.png') ?>"
+      alt="Gradient_shade_image">
     <h1 class="design-title service-title">
       Transform the way <span class="hero-span">user interact</span> with your product
     </h1>
@@ -10,7 +11,8 @@
       Want to build a remarkable website or web application that is an instant win? Our design and development teams
       create meaningful digital experiences and turn them into tangible business results.
     </p>
-    <img class="main-img" src="<?php echo site_url('/wp-content/uploads/2025/12/design-hero-img.png') ?>" />
+    <img class="main-img" src="<?php echo site_url('/wp-content/uploads/2025/12/design-hero-img.png') ?>"
+      alt="Our Design" />
   </section>
   <section class="design-section">
     <h1 class="card-design-title section-title">Design Services</h1>
@@ -92,13 +94,13 @@
           while ($work->have_posts()):
             $work->the_post(); ?>
             <div class="work-card">
-              <img class="work-img" src="<?php the_field('work_image') ?>" />
+              <img class="work-img" src="<?php the_field('work_image') ?>" alt="Work" />
               <p class="work-anchor anchor">UI/UX Design</p>
               <p class="work-anchor anchor">Wireframe</p>
               <div class="work-info flex-container">
                 <h3 class="work-card-title"><?php the_title(); ?></h3>
                 <a class="arrow-btn btn" href="<?php echo site_url('/ourwork-detail/') ?>">
-                  <img src="<?php echo get_template_directory_uri(); ?>/html/work/arrow-img.png" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/html/work/arrow-img.png" alt="arrow" />
                 </a>
               </div>
             </div>

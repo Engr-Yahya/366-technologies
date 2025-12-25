@@ -2,9 +2,10 @@
 
 <main class="ourwork-detail">
   <section class="service-page">
-    <img class="service-hero-img" src="<?php echo site_url('/wp-content/uploads/2025/12/Gradient.png') ?>">
+    <img class="service-hero-img" src="<?php echo site_url('/wp-content/uploads/2025/12/Gradient.png') ?>"
+      alt="Gradient_shade_image">
     <img class="main-img ourwork-detail-img"
-      src="<?php echo site_url('/wp-content/uploads/2025/12/ourwork-detail-hero-img.png'); ?>" />
+      src="<?php echo site_url('/wp-content/uploads/2025/12/ourwork-detail-hero-img.png'); ?>" alt="Work image" />
   </section>
   <section>
     <div class="container">
@@ -107,7 +108,8 @@
   </section>
   <section>
     <div class="ourwork-img">
-      <img class="main-img" src="<?php echo site_url('/wp-content/uploads/2025/12/ourwork-img-1.png'); ?>" />
+      <img class="main-img" src="<?php echo site_url('/wp-content/uploads/2025/12/ourwork-img-1.png'); ?>"
+        alt="Work image" />
     </div>
     <div class="container">
       <h1 class="ourwork-title">
@@ -157,7 +159,8 @@
       </p>
     </div>
     <div class="ourwork-img">
-      <img class="main-img" src="<?php echo site_url('/wp-content/uploads/2025/12/ourwork-img-2-scaled.png'); ?>" />
+      <img class="main-img" src="<?php echo site_url('/wp-content/uploads/2025/12/ourwork-img-2-scaled.png'); ?>"
+        alt="Work Image" />
     </div>
   </section>
 

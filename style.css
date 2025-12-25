@@ -170,6 +170,7 @@ ul {
   border-radius: 35px;
 }
 .hero-content {
+  padding-left: 20px;
   display: flex;
   flex-direction: column;
   gap: 68px;

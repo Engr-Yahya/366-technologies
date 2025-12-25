@@ -1,12 +1,14 @@
 <?php get_header() ?>
 <main class="blog-page">
   <section class="service-page">
-    <img class="service-hero-img" src="<?php echo site_url('/wp-content/uploads/2025/12/Gradient.png'); ?>">
+    <img class="service-hero-img" src="<?php echo site_url('/wp-content/uploads/2025/12/Gradient.png'); ?>"
+      alt="Gradient_shade_image">
     <h1 class="design-title title service-title ">
       Our Exclusive
       <span class="hero-span">Blogs</span>
     </h1>
-    <img class="main-img" src="<?php echo site_url('/wp-content/uploads/2025/12/blogpage-hero-img.png') ?>" />
+    <img class="main-img" src="<?php echo site_url('/wp-content/uploads/2025/12/blogpage-hero-img.png') ?>"
+      alt="Our Blogs" />
   </section>
   <section class="blog">
     <div class="container">
@@ -25,18 +27,18 @@
             <div class="blog-card">
               <a href="<?php echo site_url('/blog-detail/'); ?>">
                 <div class="blog-img-div">
-                  <img class="blog-card-img" src="<?php the_field('blog_card_image') ?>" />
+                  <img class="blog-card-img" src="<?php the_field('blog_card_image') ?>" alt="Blogs" />
                   <div class="blog-img-info">
                     <div class="blog-anchor">
-                      <img src="<?php echo site_url('/wp-content/uploads/2025/12/Exclude.png'); ?>" />
+                      <img src="<?php echo site_url('/wp-content/uploads/2025/12/Exclude.png'); ?>" alt="Featured" />
                       <p>Featured</p>
                     </div>
                     <div class="blog-anchor">
-                      <img src="<?php echo site_url('/wp-content/uploads/2025/12/Vector.png'); ?>" />
+                      <img src="<?php echo site_url('/wp-content/uploads/2025/12/Vector.png'); ?>" alt="Date" />
                       <p><?php the_time('d M Y'); ?></p>
                     </div>
                     <div class="blog-anchor">
-                      <img src="<?php echo site_url('/wp-content/uploads/2025/12/Group-1000011720.png'); ?>" />
+                      <img src="<?php echo site_url('/wp-content/uploads/2025/12/Group-1000011720.png'); ?>" alt="News" />
                       <p>News</p>
                     </div>
                   </div>

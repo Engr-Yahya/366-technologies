@@ -13,7 +13,8 @@
   <header class="main-header">
     <div class="container header-flex flex-container">
       <a href="<?php echo site_url('/'); ?>">
-        <img class="header-img" src="<?php echo get_template_directory_uri(); ?>/html/assets/svg/header-1.svg" />
+        <img class="header-img" src="<?php echo get_template_directory_uri(); ?>/html/assets/svg/header-1.svg"
+          alt="366 Technologies" />
       </a>
       <button class="hamburger" aria-label="Menu">
         <span></span>

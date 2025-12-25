@@ -2,13 +2,15 @@
 
 <main class="about-page">
   <section class="service-page container">
-    <img class="service-hero-img" src="<?php echo site_url('/wp-content/uploads/2025/12/Gradient.png') ?>">
+    <img class="service-hero-img" src="<?php echo site_url('/wp-content/uploads/2025/12/Gradient.png') ?>"
+      alt="Gradient_shade_image">
     <h1 class="about-head service-title">
       Welcome to
       <span class="hero-span">366 Technologies,</span>
       Your Premier Digital Agency in Glasgow
     </h1>
-    <img class="main-img" src="<?php echo site_url('/wp-content/uploads/2025/12/about-her0-img.png') ?>" />
+    <img class="main-img" src="<?php echo site_url('/wp-content/uploads/2025/12/about-her0-img.png') ?>"
+      alt="About Us" />
     <div class="about-flex-container container">
       <a class="about-anchor anchor" href="#">Who Are We</a>
       <div class="about-flex flex-container">
@@ -36,7 +38,7 @@
         while (have_rows('about_logo')) {
           the_row();
           ?>
-          <img class="logo-img" src="<?php the_sub_field("about_logo_image"); ?>" alt="" />
+          <img class="logo-img" src="<?php the_sub_field("about_logo_image"); ?>" alt="Logos" />
         <?php }
       } ?>
     </div>

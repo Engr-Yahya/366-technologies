@@ -3,7 +3,8 @@ get_header();
 ?>
 <main>
   <section class="hero">
-    <img class="hero-shade" src="<?php echo site_url('/wp-content/uploads/2025/12/Ellipse-11.png'); ?>" />
+    <img class="hero-shade" src="<?php echo site_url('/wp-content/uploads/2025/12/Ellipse-11.png'); ?>"
+      alt="Gradient_shade_img" />
     <div class="hero-section ">
       <div class="hero-container flex-container">
         <div class="hero-content">
@@ -19,16 +20,19 @@ get_header();
           <div>
             <p class="hashtag-review"> <?php the_field('hashtag_reviews') ?></p>
             <div class="clients flex-container">
-              <img class="client-reviews" src="<?php echo site_url('/wp-content/uploads/2025/12/Container.png'); ?>" />
+              <img class="client-reviews" src="<?php echo site_url('/wp-content/uploads/2025/12/Container.png'); ?>"
+                alt="Clients" />
               <div>
-                <img class="reviews" src="<?php echo site_url('/wp-content/uploads/2025/12/reviews.png'); ?>" />
+                <img class="reviews" src="<?php echo site_url('/wp-content/uploads/2025/12/reviews.png'); ?>"
+                  alt="Reviews" />
                 <p class="review-txt"><?php the_field('reviews') ?></p>
               </div>
             </div>
           </div>
         </div>
         <div class="hero-image">
-          <img class="hero-img" src="<?php echo site_url('/wp-content/uploads/2025/12/Home-Hero-Img-1.webp'); ?>" />
+          <img class="hero-img" src="<?php echo site_url('/wp-content/uploads/2025/12/Home-Hero-Img-1.webp'); ?>"
+            alt="Hero_img" />
         </div>
       </div>
     </div>
@@ -41,7 +45,7 @@ get_header();
         while (have_rows('logos')) {
           the_row();
           ?>
-          <img class="logo-img" src="<?php the_sub_field("logo_img"); ?>" alt="" />
+          <img class="logo-img" src="<?php the_sub_field("logo_img"); ?>" alt="" alt="logos" />
         <?php }
       } ?>
     </div>
@@ -148,13 +152,13 @@ get_header();
           while ($work->have_posts()):
             $work->the_post(); ?>
             <div class="work-card">
-              <img class="work-img" src="<?php the_field('work_image') ?>" />
+              <img class="work-img" src="<?php the_field('work_image') ?>" alt="Work-img" />
               <p class="work-anchor anchor">UI/UX Design</p>
               <p class="work-anchor anchor">Wireframe</p>
               <div class="work-info flex-container">
                 <h3 class="work-card-title"><?php the_title(); ?></h3>
                 <a class="arrow-btn btn" href="<?php echo site_url('/ourwork-detail/') ?>">
-                  <img src="<?php echo get_template_directory_uri(); ?>/html/work/arrow-img.png" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/html/work/arrow-img.png" alt="arrow" />
                 </a>
               </div>
             </div>
@@ -191,7 +195,7 @@ get_header();
                     <?php the_sub_field('test_description') ?>
                   </p>
                   <div class="client-info">
-                    <img class="client-img" src="<?php the_sub_field('client_image') ?>">
+                    <img class="client-img" src="<?php the_sub_field('client_image') ?>" alt="Client">
                     <div>
                       <h3 class="client-name"><?php the_sub_field('client_name') ?></h3>
                       <p class="client-rank"><?php the_sub_field('client_rank') ?> </p>
@@ -234,18 +238,18 @@ get_header();
             <div class="blog-card">
               <a href="<?php echo site_url('/blog-detail/') ?>">
                 <div class="blog-img-div">
-                  <img class="blog-card-img" src="<?php the_field('blog_card_image') ?>" />
+                  <img class="blog-card-img" src="<?php the_field('blog_card_image') ?>" alt="Blog image" />
                   <div class="blog-img-info">
                     <div class="blog-anchor">
-                      <img src="<?php echo site_url('/wp-content/uploads/2025/12/Exclude.png'); ?>" />
+                      <img src="<?php echo site_url('/wp-content/uploads/2025/12/Exclude.png'); ?>" alt="Featured" />
                       <p>Featured</p>
                     </div>
                     <div class="blog-anchor">
-                      <img src="<?php echo site_url('/wp-content/uploads/2025/12/Vector.png'); ?>" />
+                      <img src="<?php echo site_url('/wp-content/uploads/2025/12/Vector.png'); ?>" alt="Date" />
                       <p><?php the_time('d M Y'); ?></p>
                     </div>
                     <div class="blog-anchor">
-                      <img src="<?php echo site_url('/wp-content/uploads/2025/12/Group-1000011720.png'); ?>" />
+                      <img src="<?php echo site_url('/wp-content/uploads/2025/12/Group-1000011720.png'); ?>" alt="News" />
                       <p>News</p>
                     </div>
                   </div>

@@ -22,7 +22,7 @@
       ?>
 
     </div>
-    <img src="<?php echo site_url('/wp-content/uploads/2025/12/contact-map.png') ?>" />
+    <img src="<?php echo site_url('/wp-content/uploads/2025/12/contact-map.png') ?>" alt="map" />
   </section>
   <section class="form-container">
     <div class="form-flex">

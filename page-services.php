@@ -3,7 +3,8 @@
 
 <main>
   <section class="service-page">
-    <img class="service-hero-img" src="<?php echo site_url('/wp-content/uploads/2025/12/Gradient.png') ?>">
+    <img class="service-hero-img" src="<?php echo site_url('/wp-content/uploads/2025/12/Gradient.png') ?>"
+      alt="Gradient_shade_image">
     <h1 class="service-title">
       We solve your toughest
       <span class="hero-span">challenges</span>
@@ -12,7 +13,8 @@
       You deserve a website and branding that will serve you well for years to come. Whether you need a new logo, a
       full website redesign or anything in between, our team is here to put your business in its best light.
     </p>
-    <img class="main-img" src="<?php echo site_url('/wp-content/uploads/2025/12/service-hero-img.png'); ?>" />
+    <img class="main-img" src="<?php echo site_url('/wp-content/uploads/2025/12/service-hero-img.png'); ?>"
+      alt="Services" />
   </section>
   <section>
     <div class="grid-section grid grid-col2 grid-1col container">
@@ -26,7 +28,7 @@
         while ($service->have_posts()):
           $service->the_post(); ?>
           <div class="service-grid-item">
-            <img class="service-grid-img" src="<?php the_field('service_image') ?>" />
+            <img class="service-grid-img" src="<?php the_field('service_image') ?>" alt="Our Services" />
             <h2 class="service-grid-title">
               <?php the_title(); ?>
             </h2>

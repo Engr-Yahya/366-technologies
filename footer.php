@@ -1,6 +1,7 @@
 <footer>
   <div class="footer container flex-container">
-    <img class="footer-img" src=" <?php echo get_template_directory_uri(); ?>/html/assets/svg/header-1.svg">
+    <img class="footer-img" src=" <?php echo get_template_directory_uri(); ?>/html/assets/svg/header-1.svg"
+      alt="366 Technologies">
     <div class="grid icon-grid">
       <div class="footer-icon">
         <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">

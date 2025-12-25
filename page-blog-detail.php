@@ -2,26 +2,27 @@
 
 <main class="blogdetail-page">
   <section class=" service-page container">
-    <img class="service-hero-img" src="<?php echo site_url('/wp-content/uploads/2025/12/Gradient.png'); ?>">
+    <img class="service-hero-img" src="<?php echo site_url('/wp-content/uploads/2025/12/Gradient.png'); ?>"
+      alt="Gradient_shade_image">
     <h1 class="blog-head service-title">
       Behind-the-Scenes of Art Bridges’ Success: Design, Awards, and
       <span class="hero-span">Team Insights</span>
     </h1>
     <div class="blog-hero-img-wrapper">
       <img class="blogdetail-hero-img"
-        src="<?php echo site_url('/wp-content/uploads/2025/12/blogdetail-page-hero-img.png'); ?>" />
+        src="<?php echo site_url('/wp-content/uploads/2025/12/blogdetail-page-hero-img.png'); ?>" alt="Blog" />
 
       <div class="blog-img-detail">
         <div class="blog-anchor blogdetail-anchor">
-          <img src="<?php echo site_url('/wp-content/uploads/2025/12/Exclude.png'); ?>" />
+          <img src="<?php echo site_url('/wp-content/uploads/2025/12/Exclude.png'); ?>" alt="Featured" />
           <p>Featured</p>
         </div>
         <div class="blog-anchor blogdetail-anchor">
-          <img src="<?php echo site_url('/wp-content/uploads/2025/12/Vector.png'); ?>" />
+          <img src="<?php echo site_url('/wp-content/uploads/2025/12/Vector.png'); ?>" alt="date" />
           <p><?php the_time('d M Y'); ?></p>
         </div>
         <div class="blog-anchor blogdetail-anchor">
-          <img src="<?php echo site_url('/wp-content/uploads/2025/12/Group-1000011720.png'); ?>" />
+          <img src="<?php echo site_url('/wp-content/uploads/2025/12/Group-1000011720.png'); ?>" alt="News " />
           <p>News</p>
         </div>
       </div>
@@ -129,7 +130,8 @@
         <p class="share-article"> Share this article</p>
       </div>
     </div>
-    <img class="blogdetail-img" src="<?php echo site_url('/wp-content/uploads/2025/12/blogdetail-img.png') ?>" />
+    <img class="blogdetail-img" src="<?php echo site_url('/wp-content/uploads/2025/12/blogdetail-img.png') ?>"
+      alt="blog image" />
   </section>
 
   <section>
@@ -145,12 +147,6 @@
           </p>
         <?php }
       } ?>
-      <!-- <h1 class="gradient-title section-title">
-        Subscribe to our Newsletter
-      </h1>
-      <p class="gradient-description">
-        Get the latest insights on marketing attribution and strategy.
-      </p> -->
       <div class="input-wrapper ">
         <input type="text" placeholder="Enter Your Email" size="35" required>
         <button type="submit">
@@ -188,18 +184,18 @@
             <div class="blog-card">
               <a href="<?php echo site_url('/') ?>">
                 <div class="blog-img-div">
-                  <img class="blog-card-img" src="<?php the_field('blog_card_image') ?>" />
+                  <img class="blog-card-img" src="<?php the_field('blog_card_image') ?>" alt="Blog image" />
                   <div class="blog-img-info">
                     <div class="blog-anchor">
-                      <img src="<?php echo site_url('/wp-content/uploads/2025/12/Exclude.png'); ?>" />
+                      <img src="<?php echo site_url('/wp-content/uploads/2025/12/Exclude.png'); ?>" alt="Featured" />
                       <p>Featured</p>
                     </div>
                     <div class="blog-anchor">
-                      <img src="<?php echo site_url('/wp-content/uploads/2025/12/Vector.png'); ?>" />
+                      <img src="<?php echo site_url('/wp-content/uploads/2025/12/Vector.png'); ?>" alt="Date" />
                       <p><?php the_time('d M Y'); ?></p>
                     </div>
                     <div class="blog-anchor">
-                      <img src="<?php echo site_url('/wp-content/uploads/2025/12/Group-1000011720.png'); ?>" />
+                      <img src="<?php echo site_url('/wp-content/uploads/2025/12/Group-1000011720.png'); ?>" alt="News" />
                       <p>News</p>
                     </div>
                   </div>
